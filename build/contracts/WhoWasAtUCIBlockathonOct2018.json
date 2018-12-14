@@ -1,0 +1,306 @@
+{
+  "contractName": "WhoWasAtUCIBlockathonOct2018",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "index",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60806040526000609655348015601457600080fd5b50609e806100236000396000f300608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632986c0e5146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b609654815600a165627a7a7230582031e916dd0ec904294ddf44ea9c1e0290ca279f6a0e83ed4eba50d4e58f1a280c0029",
+  "deployedBytecode": "0x608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632986c0e5146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b609654815600a165627a7a7230582031e916dd0ec904294ddf44ea9c1e0290ca279f6a0e83ed4eba50d4e58f1a280c0029",
+  "sourceMap": "26:93:1:-;;;110:1;90:21;;26:93;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:93:1;;;;;;;",
+  "deployedSourceMap": "26:93:1:-;;;;;;;;;;;;;;;;;;;;;;;;90:21;;8:9:-1;5:2;;;30:1;27;20:12;5:2;90:21:1;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.24;\n\ncontract WhoWasAtUCIBlockathonOct2018 {\n\n  string[150] names;\n  uint public index = 0;\n\n  \n\n}\n",
+  "sourcePath": "/Users/hpmaharaja/hustle/devworks/uci-blockchain-2018/contracts/WhoWasAtUCIBlockathonOct2018.sol",
+  "ast": {
+    "absolutePath": "/Users/hpmaharaja/hustle/devworks/uci-blockchain-2018/contracts/WhoWasAtUCIBlockathonOct2018.sol",
+    "exportedSymbols": {
+      "WhoWasAtUCIBlockathonOct2018": [
+        66
+      ]
+    },
+    "id": 67,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 66,
+        "linearizedBaseContracts": [
+          66
+        ],
+        "name": "WhoWasAtUCIBlockathonOct2018",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 62,
+            "name": "names",
+            "nodeType": "VariableDeclaration",
+            "scope": 66,
+            "src": "69:17:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_string_storage_$150_storage",
+              "typeString": "string[150]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 59,
+                "name": "string",
+                "nodeType": "ElementaryTypeName",
+                "src": "69:6:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                }
+              },
+              "id": 61,
+              "length": {
+                "argumentTypes": null,
+                "hexValue": "313530",
+                "id": 60,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": false,
+                "kind": "number",
+                "lValueRequested": false,
+                "nodeType": "Literal",
+                "src": "76:3:1",
+                "subdenomination": null,
+                "typeDescriptions": {
+                  "typeIdentifier": null,
+                  "typeString": null
+                },
+                "value": "150"
+              },
+              "nodeType": "ArrayTypeName",
+              "src": "69:11:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_string_storage_$150_storage_ptr",
+                "typeString": "string[150]"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 65,
+            "name": "index",
+            "nodeType": "VariableDeclaration",
+            "scope": 66,
+            "src": "90:21:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 63,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "90:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 64,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "110:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 67,
+        "src": "26:93:1"
+      }
+    ],
+    "src": "0:120:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/hpmaharaja/hustle/devworks/uci-blockchain-2018/contracts/WhoWasAtUCIBlockathonOct2018.sol",
+    "exportedSymbols": {
+      "WhoWasAtUCIBlockathonOct2018": [
+        66
+      ]
+    },
+    "id": 67,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 66,
+        "linearizedBaseContracts": [
+          66
+        ],
+        "name": "WhoWasAtUCIBlockathonOct2018",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 62,
+            "name": "names",
+            "nodeType": "VariableDeclaration",
+            "scope": 66,
+            "src": "69:17:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_string_storage_$150_storage",
+              "typeString": "string[150]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 59,
+                "name": "string",
+                "nodeType": "ElementaryTypeName",
+                "src": "69:6:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                }
+              },
+              "id": 61,
+              "length": {
+                "argumentTypes": null,
+                "hexValue": "313530",
+                "id": 60,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": false,
+                "kind": "number",
+                "lValueRequested": false,
+                "nodeType": "Literal",
+                "src": "76:3:1",
+                "subdenomination": null,
+                "typeDescriptions": {
+                  "typeIdentifier": null,
+                  "typeString": null
+                },
+                "value": "150"
+              },
+              "nodeType": "ArrayTypeName",
+              "src": "69:11:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_string_storage_$150_storage_ptr",
+                "typeString": "string[150]"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 65,
+            "name": "index",
+            "nodeType": "VariableDeclaration",
+            "scope": 66,
+            "src": "90:21:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 63,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "90:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 64,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "110:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 67,
+        "src": "26:93:1"
+      }
+    ],
+    "src": "0:120:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-10-20T21:26:02.941Z"
+}
